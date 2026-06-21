@@ -1,0 +1,132 @@
+/* General Body Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f4f8;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+.header {
+    text-align: center;
+    padding: 10px 0 20px 0;
+    color: #1e4620;
+}
+
+/* Control Panel Styles */
+.control-panel {
+    max-width: 1200px;
+    margin: 0 auto 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    text-align: center;
+    border-top: 5px solid #FF9800;
+}
+
+.panel-title {
+    margin-top: 0;
+    color: #666;
+}
+
+.control-status-text {
+    font-size: 0.9rem;
+    color: #777;
+    margin-bottom: 0;
+}
+
+.btn {
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 0 10px;
+    color: white;
+    transition: 0.3s;
+}
+
+.btn-on { background-color: #4CAF50; }
+.btn-on:hover { background-color: #45a049; }
+.btn-off { background-color: #f44336; }
+.btn-off:hover { background-color: #da190b; }
+
+/* Dashboard Cards */
+.dashboard-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto 30px auto;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    text-align: center;
+    border-top: 5px solid #4CAF50;
+}
+
+.card h3 {
+    margin: 0 0 10px 0;
+    color: #666;
+    font-size: 1.1rem;
+}
+
+.value {
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: #1e4620;
+}
+
+.status-on { color: #2196F3; }
+.status-off { color: #999; }
+
+/* Chart & Table Containers */
+.content-container {
+    max-width: 1200px;
+    margin: 0 auto 30px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.section-title {
+    text-align: center;
+    color: #666;
+    margin-top: 0;
+}
+
+/* Data Table Styles */
+.table-wrapper {
+    max-height: 400px;
+    overflow-y: auto;
+    margin-top: 15px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th {
+    background-color: #1e4620;
+    color: white;
+    padding: 12px;
+    position: sticky;
+    top: 0;
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:nth-child(even) { background-color: #f9f9f9; }
+tr:hover { background-color: #f1f1f1; }
